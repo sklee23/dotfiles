@@ -1,2 +1,9 @@
+* Packages
+ - git
+ - ctags, cscope
+ - lftp
+ - tree
+
+
 * Setup git email.
   ex) git config --global user.email johndoe@example.com
