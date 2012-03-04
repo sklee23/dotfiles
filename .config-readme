@@ -1,0 +1,2 @@
+* Setup git email.
+  ex) git config --global user.email johndoe@example.com
