@@ -1,8 +1,13 @@
 * Packages
- - git
+ - zsh
+ - vim
+ - git, gitk
  - ctags, cscope
  - lftp
  - tree
+ - tofrodos
+ - meld
+ - ttf-inconsolata
 
 
 * Setup git email.
