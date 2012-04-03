@@ -1,6 +1,7 @@
 set nocompatible
 set exrc
 set background=dark
+set showcmd
 "set mouse=a
 "set visualbell
 "set list
@@ -10,7 +11,7 @@ set ruler
 set laststatus=2
 highlight CursorLine term=none cterm=none ctermbg=0
 "set cursorline
-set ic hls is	" ignorecase, hlsearch incsearch
+set ic hls is scs	" ignorecase, hlsearch incsearch smartcase
 nnoremap <C-H> :let @/='\<<C-R>=expand("<cword>")<CR>\>'<CR>:set hls<CR>
 " Toggle hlsearch
 :map <silent> <C-N> :se invhlsearch<CR>
