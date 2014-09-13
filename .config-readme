@@ -9,6 +9,15 @@
  - meld
  - fonts-inconsolata
 
+* Setup github ssh key and config system.
+  # https://help.github.com/articles/generating-ssh-keys#platform-linux
+  # http://necoro.wordpress.com/2009/10/08/managing-your-configuration-files-with-git-and-stgit/
+  cd	# goto home directory.
+  git clone https://github.com/sklee23/dotfiles.git
+  cp -r dotfiles/.* .
+  echo "*" >> ~/.gitignore
+  chsh		# /usr/bin/zsh
+  # logout and login
 
 * Setup git email.
   ex) git config --global user.email johndoe@example.com
