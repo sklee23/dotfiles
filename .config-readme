@@ -14,6 +14,7 @@
   # http://necoro.wordpress.com/2009/10/08/managing-your-configuration-files-with-git-and-stgit/
   cd	# goto home directory.
   git clone https://github.com/sklee23/dotfiles.git
+  mv dotfiles/.git ~/.config.git
   cp -r dotfiles/.* .
   rm -rf dotfiles
   echo "*" >> ~/.gitignore
