@@ -9,6 +9,10 @@
  - meld
  - fonts-inconsolata
 
+* Extra packages
+ - chromium-browser
+ - nabi
+
 * Setup github ssh key and config system.
   # https://help.github.com/articles/generating-ssh-keys#platform-linux
   # http://necoro.wordpress.com/2009/10/08/managing-your-configuration-files-with-git-and-stgit/
