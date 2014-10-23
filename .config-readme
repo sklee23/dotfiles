@@ -12,6 +12,13 @@
 * Extra packages
  - chromium-browser
  - nabi
+ - dpkg-dev (for apt-get source)
+
+* Extra packages (trace related)
+ - linux-tools(perf)
+ - oprofile
+ - blktrace iotop atsar
+ - sysstat (for iostat, pidstat, mpstat, ...)
 
 * Setup github ssh key and config system.
   # https://help.github.com/articles/generating-ssh-keys#platform-linux
