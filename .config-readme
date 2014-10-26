@@ -32,5 +32,12 @@
   chsh		# /usr/bin/zsh
   # logout and login
 
+* Worth cloning...
+  git clone https://github.com/git/git.git
+  git clone https://github.com/torvalds/linux.git
+  git clone git://git.code.sf.net/p/oprofile/oprofile
+  git clone https://github.com/brendangregg/perf-tools.git
+  git clone git://git.kernel.dk/blktrace.git
+
 * Setup git email.
   ex) git config --global user.email johndoe@example.com
