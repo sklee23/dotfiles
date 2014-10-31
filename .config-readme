@@ -13,6 +13,7 @@
  - chromium-browser
  - nabi
  - dpkg-dev (for apt-get source)
+ - flex, bison
 
 * Extra packages (trace related)
  - linux-tools(perf)
