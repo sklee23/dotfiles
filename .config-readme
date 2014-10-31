@@ -38,6 +38,7 @@
   git clone git://git.code.sf.net/p/oprofile/oprofile
   git clone https://github.com/brendangregg/perf-tools.git
   git clone git://git.kernel.dk/blktrace.git
+  git clone git://busybox.net/busybox.git
 
 * Setup git email.
   ex) git config --global user.email johndoe@example.com
