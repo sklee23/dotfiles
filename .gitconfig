@@ -19,3 +19,5 @@
 [core]
 #	pager = less -FRSX
 	editor = vim
+[push]
+	default = simple
