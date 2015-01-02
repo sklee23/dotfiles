@@ -70,6 +70,7 @@ setopt   autoresume histignoredups pushdsilent clobber
 setopt   autopushd pushdminus rcquotes
 unsetopt bgnice autoparamslash
 unsetopt automenu
+setopt   noflowcontrol		# to enable C-s (forward incremental search)
 
 #setopt nopromptcr
 
