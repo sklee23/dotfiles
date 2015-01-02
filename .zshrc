@@ -190,6 +190,7 @@ alias dpkg='noglob dpkg'
 alias v='vim -R'
 alias vv='vim -R -t'
 alias gdb='gdb -q'
+alias g='git'
 
 #bindkey -s '\e[17~' "find . -name '*.[ch]' | xargs grep "
 #bindkey -s '\e[18~' "find . -name '**'\C-b\C-b"
