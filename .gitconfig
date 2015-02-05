@@ -7,6 +7,7 @@
 	st = status
 	df = diff
 	lp = log -p
+	lpr = log -p --reverse
 	cob = checkout -b
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	type = cat-file -t
