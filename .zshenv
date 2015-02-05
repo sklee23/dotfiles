@@ -1,6 +1,5 @@
 path=($path /sbin /usr/sbin)
 path=($path ~/bin)
-path=($path /usr/local/arm/cross/bin/)
 
 #export LANG=ko_KR.eucKR
 #export LC_CTYPE=ko_KR.eucKR
