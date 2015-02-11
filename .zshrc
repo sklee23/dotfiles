@@ -197,6 +197,7 @@ alias g='git'
 #bindkey -s '\e[18~' "find . -name '**'\C-b\C-b"
 bindkey -s '\C-x\C-g' "find . -name '*.[ch]' | xargs grep "
 bindkey -s '\C-x\C-f' "find . -name '**'\C-b\C-b"
+bindkey -s '\C-x\C-l' "find . -type f | xargs grep "
 
 # git prompt.
 autoload -U colors
