@@ -45,6 +45,8 @@
   git clone https://github.com/brendangregg/perf-tools.git
   git clone git://git.kernel.dk/blktrace.git
   git clone git://busybox.net/busybox.git
+  git clone git://www.aleph1.co.uk/yaffs2
+  git clone git://github.com/robbyrussell/oh-my-zsh.git
 
 * Setup git email.
   ex) git config --global user.email johndoe@example.com
