@@ -199,6 +199,8 @@ bindkey -s '\C-x\C-g' "find . -name '*.[ch]' | xargs grep "
 bindkey -s '\C-x\C-f' "find . -name '**'\C-b\C-b"
 bindkey -s '\C-x\C-l' "find . -type f | xargs grep "
 
+zinfo() {info --index-search="$*" zsh}	# Try something like 'zinfo bindkey'
+
 # git prompt.
 autoload -U colors
 colors
