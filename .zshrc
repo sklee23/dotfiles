@@ -53,10 +53,10 @@ typeset -U path cdpath fpath
 export MAIL=/var/spool/mail/$USERNAME
 
 #MAILCHECK=300
-HISTSIZE=200
+HISTSIZE=4000
 DIRSTACKSIZE=20
 HISTFILE="/$HOME/.zsh_history"	# added by sklee.
-SAVEHIST=200			# added by sklee.
+SAVEHIST=4000			# added by sklee.
 
 # Set/unset  shell options
 #setopt   notify globdots correct pushdtohome cdablevars autolist
