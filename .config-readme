@@ -25,6 +25,7 @@
  - iozone3
  - trace-cmd kernelshark
  - tshark wireshark
+ - fping
 
 * Setup github ssh key and config system.
   # https://help.github.com/articles/generating-ssh-keys#platform-linux
