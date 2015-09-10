@@ -6,6 +6,7 @@
 	br = branch
 	st = status
 	df = diff
+	dt = difftool
 	lp = log -p
 	lpr = log -p --reverse
 	cob = checkout -b
